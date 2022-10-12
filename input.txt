@@ -1,0 +1,4 @@
+#주석
+#key=value 형식
+name=Hong Kil Dong
+data=9,1,5,2,8,13,26,11,35,1
