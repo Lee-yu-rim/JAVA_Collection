@@ -12,7 +12,7 @@ public class HashMapTest {
 		
 		//put() => 데이터 입력 메소드
 		HashMap<String,String> map = new HashMap<String,String>();  //제네릭 -> key,value 둘다 정의해야함
-		map.put("myid","1234");
+		map.put("myid","1234"); 
 		map.put("asdf","1111");
 		map.put("asdf","1234");
 		

@@ -41,7 +41,7 @@ public class PropertiesTest {
 		String name = prop.getProperty("name");   //Hong Kil Dong
 		String[] data = prop.getProperty("data").split(",");  
 		
-		int max = 0;
+		int max = 0; 
 		int min = 0;
 		int sum = 0;
 		
