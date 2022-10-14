@@ -36,7 +36,7 @@ public class HashMapTest {
 		
 		System.out.println("============");
 		
-		//value() : value 전체를 반환한다.
+		//values() : value 전체를 반환한다.
 		Collection<String> values = map.values(); //keySet과 동일하게 values에 커서를 대보면 타입이 Collection으로 정의되어있으므로 values라는 변수의 타입을 동일하게 정의해줌
 		Iterator<String> itV = values.iterator();
 		
