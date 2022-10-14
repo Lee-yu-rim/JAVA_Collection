@@ -25,8 +25,9 @@ public class Student implements Comparable {
 		
 		if(o instanceof Student) {
 			Student tmp = (Student)o;
+			return name.compareTo(((Student) o).name);
 			//return this.ban - tmp.ban;   //오름차순  //값이 0이면 같은 값, 양수면 앞에 값이 큰 값, 음수면 뒤에 값이 큰 값 -> TreeSet에서 내부적으로 차액값으로 정렬함 
-			return  tmp.ban - this.ban;    //내림차순
+//			return  tmp.ban - this.ban;    //내림차순
 		}
 		
 		return -1;
